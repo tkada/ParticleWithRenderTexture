@@ -492,6 +492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113221721}
   - component: {fileID: 1113221720}
+  - component: {fileID: 1113221722}
   m_Layer: 0
   m_Name: ParticleCamera
   m_TagString: Untagged
@@ -566,6 +567,19 @@ Transform:
   - {fileID: 1507295244}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1113221722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113221719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4359c014bb34f5cbe6fd00199392c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: {fileID: 2100000, guid: 1761ca563b32a4b3997da6a72e6c2bde, type: 2}
 --- !u!1 &1308673112
 GameObject:
   m_ObjectHideFlags: 0
